@@ -1,0 +1,37 @@
+{
+  "name": "effector-router",
+  "version": "0.0.1",
+  "description": "React Router with type supporting",
+  "license": "MIT",
+  "repository": {
+    "type": "git"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "module": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "publishConfig": {
+    "directory": "dist"
+  },
+  "peerDependencies": {
+    "effector": "^20.12.2",
+    "effector-react": "^20.6.2",
+    "react": ">16.13.1",
+    "react-dom": ">16.13.1"
+  },
+  "dependencies": {
+    "@types/react": "^16.9.36",
+    "effector": "^20.12.2",
+    "effector-react": "^20.6.2",
+    "react": ">16.13.1",
+    "react-dom": ">16.13.1",
+    "typescript": ">3.8.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "tsc"
+  }
+}
