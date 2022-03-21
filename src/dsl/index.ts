@@ -123,6 +123,7 @@ const exactRoute = <IP extends object, P extends object>(
     };
 };
 
+//remove this ?
 export const routeSymbol = <P extends object = {}>(description: string): RouteSymbol<P> => ({
     value: Symbol(),
     description,

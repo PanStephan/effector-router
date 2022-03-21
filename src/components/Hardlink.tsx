@@ -10,7 +10,7 @@ type HardlinkProps = {
 
 export const Hardlink: FC<HardlinkProps> = x => {
     const nav = useNav();
-    if (!nav) return <a>{ x.children }</a>;
+    if (!nav) return <a href={x.to}>{ x.children }</a>;
 
     return <a href={nav.href + "#" + x.to}
               className={x.className}

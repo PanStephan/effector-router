@@ -1,7 +1,7 @@
 {
   "name": "effector-router",
   "version": "0.0.1",
-  "description": "React Router with type supporting",
+  "description": "React Router with type support",
   "license": "MIT",
   "repository": {
     "type": "git"

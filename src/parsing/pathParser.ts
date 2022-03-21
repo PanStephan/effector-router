@@ -8,6 +8,7 @@ export const parsePath = (path: string): ParsedPath => {
 
     do {
         let match = pathRegex.exec(remaining);
+        // todo make it better
         if (!match) {
             match = pathRegex.exec(remaining.slice(0, -1));
             if (!match)
