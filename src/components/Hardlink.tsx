@@ -7,6 +7,10 @@ type HardlinkProps = {
   className?: string;
   style?: CSSProperties
 }
+type A = {
+  a: string
+  b: string
+}
 
 export const Hardlink: FC<HardlinkProps> = x => {
     const nav = useNav();
