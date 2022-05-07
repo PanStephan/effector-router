@@ -5,9 +5,9 @@ import { root } from "../routes";
 export const Regular: FC = () => {
   const nav = useNav();
 
-  useEffect(() => {
-    nav.go(root.path.paths.subPath({ id: 3, mode: "new" }))
-  }, []);
+  // useEffect(() => {
+  //   nav.go(root.path.paths.subPath({ id: 3, mode: "new" }))
+  // }, []);
 
 
   return <div>

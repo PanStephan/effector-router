@@ -64,6 +64,5 @@ export const buildAddressable = <IP extends o, P extends o, QP extends o, C exte
         $allChildren: allChildren
     });
 
-
     return [fn, allChildren];
 };
